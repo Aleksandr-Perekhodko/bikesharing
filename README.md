@@ -15,6 +15,11 @@ The very first visualization completed was the Chechkout Times for Users, for th
 > - **Worksheet Two:**
 > The second visualization will use the very same premise of the first line graph exepct there is more data added into in this worksheet is called Checkout Time by Gender. In this worksheet we created a calculated field that would turn the genders column numbers which reperesent Uknown, Male, and Female with number which are 0, 1, 2. The calculated field is as follows **If [Gender]='0' then 'UNKNOWN' ELSEIF [Gender]='1' then 'MALE' ELSEIF [Gender]='2' then 'FEMALE' END** the calculated field is called Number to String since it converts the numbers to a string value. The numbers to string column is the added as a color in the marks section and also added into filters.
 ![Checkout_Gender](https://user-images.githubusercontent.com/97326526/172067390-68e21a7f-6a00-4350-950d-1c6748491b57.JPG)
-> - Worksheet Three:
+> - **Worksheet Three:**
 The third worksheet contains a heatmap and its called Trip by Weekend for Each Hour, in the column section of the heatmap it useds the Stoptime column and is set to Weekday, and the row uses the Startime column and is set to use hours, with the count being from the tripdata we use this in the color in the marks. The default color was blue so it was changed to a orange to red color scheme.
 ![Trip_by_Weekend](https://user-images.githubusercontent.com/97326526/172067762-5a55e855-2eef-4537-bb93-00d82ab4747c.JPG)
+> - **Worksheet Four:**
+The second heatmap shows the Trip by Gender(Weekday per Hour) which is also the name of the worksheet for the heatmap. The heatmap columns has the Number of String column which is the Gender conversion column,and the Stoptime column which used the weekday as its time. And the rows for the heatmap is the Starttime and used the hour as it time, and just as for the first heatmap the the count from the tripdata is used for the color in the marks section.
+![Trip_by_Gender](https://user-images.githubusercontent.com/97326526/172068120-f2b5a507-6cf1-442c-b980-9f3985639760.JPG)
+> - **Worksheet Five:**
+The final
