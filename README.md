@@ -5,4 +5,6 @@ In this project Tableau is the main pprogram that is used to create visualizatio
 ## Results
 ### Code Conversion:
 ![JN1](https://user-images.githubusercontent.com/97326526/172066630-701bc583-fe0d-4413-ba28-46accec499a1.JPG)
-First we used JupyterNotebook to get the *201908-citibike-tripdata* and convert the data into a dataframe 
+First we used JupyterNotebook to get the *201908-citibike-tripdata* and convert the data into a dataframe.
+![JN2](https://user-images.githubusercontent.com/97326526/172066775-583c4aab-2ee2-46a9-a8e7-88538dcaed27.JPG)
+After adding the original csv file into the program we would need to convert a specific column from the trip data, the need column would be the tripduration. We convert the tripduration to a datetime datatype, then checking the datatypes of the column by using **.info()** function. After confirming the datatype has been changed then, exporting the new dataframe into a updated csv file without the index.
