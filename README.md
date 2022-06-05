@@ -22,4 +22,6 @@ The third worksheet contains a heatmap and its called Trip by Weekend for Each H
 The second heatmap shows the Trip by Gender(Weekday per Hour) which is also the name of the worksheet for the heatmap. The heatmap columns has the Number of String column which is the Gender conversion column,and the Stoptime column which used the weekday as its time. And the rows for the heatmap is the Starttime and used the hour as it time, and just as for the first heatmap the the count from the tripdata is used for the color in the marks section.
 ![Trip_by_Gender](https://user-images.githubusercontent.com/97326526/172068120-f2b5a507-6cf1-442c-b980-9f3985639760.JPG)
 > - **Worksheet Five:**
-The final
+The final worksheet used another heatmap its called the User Trip by Gender By Weekday worksheet, in the columns of the worksheet in contains the Number to String column which is the gender conversion column. Then in the rows there is the Starttime which used the data in hours, and the Usertype which is shows who is just a customer for the citibikes and who is a subscriber to citibikes. This Heatmap shows the gender while showing what usertype they are and also on how many customer are using citibikes on the days of the week. While using the count of the tripdata as the color for the marks section. In This heatmap color has been switches back to the a teal to blue color.
+![Trip_by_GW](https://user-images.githubusercontent.com/97326526/172068552-99d67d2d-ae12-4a3f-8518-0de085d5909a.JPG)
+## Summary
